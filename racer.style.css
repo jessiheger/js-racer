@@ -1,6 +1,7 @@
 body {
-    background-color: lightgrey;
-    margin-right: 200px;
+    /* background-color: lightgrey; */
+    /* background-image: src="https://imgur.com/ZxUsgmb"; */
+    /* margin-right: 200px; */
 }
 
 h1 {
@@ -19,14 +20,15 @@ h2{
 }
 
 #carOne {
-    background-color: blue;
+    /* background-color: blue; */
+    /* src = href="images/turtle.png"; */
     position: absolute;
     left: 150px;
-    top: 300px;
+    top: 550px;
     margin-bottom: 40px;
 }
 #carTwo {
-    background-color: green;
+    /* background-color: green; */
     position: absolute;
     left: 150px;
     top: 400px;

@@ -1,5 +1,12 @@
 const square = document.getElementById('carOne');
 const square2 = document.getElementById('carTwo');
+const button = document.getElementById('resetButton');
+
+// const turtlePic = document.getElementById('carOne');
+// turtlePic.setAttribute('src', 'images/turtle.png');
+
+
+
 
 let pos1 = 150;
 let pos2 = 150;
@@ -13,7 +20,7 @@ let pos2 = 150;
         }
             else {
                 if (pos1 >= 1050){
-                alert('Player1 wins!'); 
+                alert('Tortoise wins!'); 
             // square.style.left = 1100 + 'px';
              }
         }
@@ -26,63 +33,16 @@ let pos2 = 150;
         else { 
             if (pos2 >= 1050){
         // square2.style.left = 1100 + 'px';
-        alert('Player2 wins!'); 
+        alert('Hare wins!'); 
     }
 }
 }
 });
 
-//         else {
-//             if (70 === e.keyCode && pos === 1100){
-//                 square.style.left = 1100 + 'px';
-//                 alert('Player1 wins!');
-//             }
-//         }
-// });
-//     document.addEventListener('keydown', (e) => {
-//         if (74 === e.keyCode && pos < 1100){
-//             pos += 100;
-//             square2.style.left = pos + 'px';
-//         }
-//         else {
-//             if (74 === e.keyCode && pos === 1100){
-//                 square2.style.left = 1100 + 'px';
-//                 alert('Player2 wins!');
-//         }
-//     }
-// });
-// // moveAlong(e);
+button.addEventListener("click", (resetButton) => {
+    // pos1 = 150;
+    // pos2 = 150;
+    square.style.left = 150 + 'px';
+    square2.style.left = 150 + 'px';
+});
 
-
-
-
-
-
-// j key is 74
-// f key is 70
-
-
-// const button = document.getElementById('goButton');
-
-
-
-
-
-
-// const playerOne = document.getElementById('carOne');
-// const playerTwo = document.getElementById('carTwo');
-
-// let e;
-// const moveAlong = (e) => {
-//     playerOne.addEventListener("keydown", () => {
-//         if (e.keyCode === 70){
-//         carOne.setAttribute("style", "left: +=5"+ "px");
-//         }
-//     playerTwo.addEventListener("keydown", () => {
-//         if (e.keyCode === 74){
-//         carTwo.setAttribute("style", "left: +=5"+ "px");
-//         }
-       
-// })
-// })
-// };
