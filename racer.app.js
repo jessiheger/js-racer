@@ -16,22 +16,19 @@
 // })
 // };
 
-// const button = document.getElementById('goButton');
+const button = document.getElementById('goButton');
 const square = document.getElementById('carOne');
 
 let pos = 200;
 
-const moveAlong = (e) => {
-    carOne.addEventListener("keydown", () => {
-        if (e.keyCode === 70){
+// const moveAlong = (e) => {
+    document.addEventListener('keydown', () => {
+        // if (e.keyCode === 70){
             pos += 10;
             square.style.left = pos + 'px';
-        }
-        //  NOT WORKING: square.setAttribute("style", "left += 500 + 'px'");
-        // square.setAttribute("style", "background-color: yellow");
-    })
+        })
 // }
-
+// movealong(e);
 
 
 
