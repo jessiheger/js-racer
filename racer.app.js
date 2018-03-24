@@ -18,13 +18,13 @@
 
 // const button = document.getElementById('goButton');
 const square = document.getElementById('carOne');
-//  DONT KNOW WHAT THIS DOES YET let pos = 0;
 
+let pos = 200;
 
-// let e;
 // const moveAlong = (e) => {
     goButton.addEventListener("click", () => {
-        square.style.left += 50 + 'px';
+        pos += 10;
+        square.style.left = pos + 'px';
         //  NOT WORKING: square.setAttribute("style", "left += 500 + 'px'");
         // square.setAttribute("style", "background-color: yellow");
     })
