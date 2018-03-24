@@ -21,10 +21,12 @@ const square = document.getElementById('carOne');
 
 let pos = 200;
 
-// const moveAlong = (e) => {
-    goButton.addEventListener("click", () => {
-        pos += 10;
-        square.style.left = pos + 'px';
+const moveAlong = (e) => {
+    carOne.addEventListener("keydown", () => {
+        if (e.keyCode === 70){
+            pos += 10;
+            square.style.left = pos + 'px';
+        }
         //  NOT WORKING: square.setAttribute("style", "left += 500 + 'px'");
         // square.setAttribute("style", "background-color: yellow");
     })
