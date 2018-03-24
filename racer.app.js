@@ -6,19 +6,30 @@ let pos = 200;
 
 // const moveAlong = (e) => {
     document.addEventListener('keydown', (e) => {
-        if (70 === e.keyCode){
-            pos += 10;
+        if (70 === e.keyCode && pos < 1100){
+            pos += 100;
             square.style.left = pos + 'px';
         }
-})
-
-document.addEventListener('keydown', (e) => {
-    if (74 === e.keyCode){
-        pos += 10;
-        square2.style.left = pos + 'px';
+        else {
+            if (70 === e.keyCode && pos === 1100){
+                square.style.left = 1100 + 'px';
+                alert('Player1 wins!');
+            }
+        }
+});
+    document.addEventListener('keydown', (e) => {
+        if (74 === e.keyCode && pos < 1100){
+            pos += 100;
+            square2.style.left = pos + 'px';
+        }
+        else {
+            if (74 === e.keyCode && pos === 1100){
+                square2.style.left = 1100 + 'px';
+                alert('Player2 wins!');
+        }
     }
-})
-// movealong(e);
+});
+// moveAlong(e);
 
 
 
