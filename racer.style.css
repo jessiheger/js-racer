@@ -21,14 +21,14 @@ h2{
 #carOne {
     background-color: blue;
     position: absolute;
-    left: 200px;
+    left: 150px;
     top: 300px;
     margin-bottom: 40px;
 }
 #carTwo {
     background-color: green;
     position: absolute;
-    left: 200px;
+    left: 150px;
     top: 400px;
     margin-top: 40px;
 }
@@ -37,5 +37,6 @@ h2{
     height: 400px;
     position: absolute;
     left: 1200px;
-    top: 200px
+    top: 200px;
+    margin: 0px;
 }
