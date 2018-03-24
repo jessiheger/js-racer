@@ -1,5 +1,6 @@
 body {
     background-color: lightgrey;
+    margin-right: 200px;
 }
 
 h1 {
@@ -17,9 +18,24 @@ h2{
     width: 100px;
 }
 
-#square1 {
-    background-color: red;
+#carOne {
+    background-color: blue;
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    margin-bottom: 40px;
 }
-#square2 {
+#carTwo {
     background-color: green;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    margin-top: 40px;
+}
+.vl {
+    border-right: 6px solid red;
+    height: 400px;
+    position: absolute;
+    right: 200px;
+    top: 200px
 }
