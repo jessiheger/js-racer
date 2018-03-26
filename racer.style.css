@@ -37,6 +37,11 @@ h3{
     top: 400px;
     margin-top: 40px;
 }
+#winnerText{
+  color: chartreuse;
+  background-color: black;
+  padding: 10px 20px;
+}
 .vl {
     border-right: 6px solid red;
     height: 400px;
